@@ -113,7 +113,7 @@ const uniq = (arr, callback) => {
       for (let x = i + 1; x < arr.length; x++) {
           if (arr[i] === arr[x]) {
               arr.splice(x, 1)
-              x--
+            //x--
           }
       }
   }
